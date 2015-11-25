@@ -4,4 +4,6 @@
 
 var sample = require('./dist/Sample.js');
 
-sample.helloWorld();
+var s = new sample();
+
+s.helloWorld();
